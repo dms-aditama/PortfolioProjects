@@ -1,7 +1,7 @@
 SELECT * FROM coviddeaths
 
 COPY coviddeaths
-FROM 'D:\BACKUP DATA D\looking for a job\2021 Job Upgrade\Post-Bootcamp\Data Portfolio Project\CovidDeaths.csv'
+FROM 'https://github.com/dms-aditama/Datasets/blob/main/CovidDeaths.csv?raw=true'
 WITH CSV HEADER;
 
 CREATE TABLE PUBLIC.covidvaccinations(
@@ -50,7 +50,7 @@ CREATE TABLE PUBLIC.covidvaccinations(
 SELECT * FROM covidvaccinations
 
 COPY covidvaccinations
-FROM 'D:\BACKUP DATA D\looking for a job\2021 Job Upgrade\Post-Bootcamp\Data Portfolio Project\CovidVaccinations.csv'
+FROM 'https://github.com/dms-aditama/Datasets/blob/main/CovidVaccinations.csv?raw=true'
 WITH CSV HEADER;
 
 SELECT Location, date, total_cases, new_cases, total_deaths, population
