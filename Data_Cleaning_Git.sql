@@ -1,4 +1,9 @@
---INSERT 
+--Hello, this is a project that I did, inspired by Alex Freberg from Youtube: AlexTheAnalyst in this video: https://www.youtube.com/watch?v=8rO7ztF4NtU&t=2142s
+--His project uses MySQL while mine uses PostgreSQL, so you will notice that there are a few differences here and there.
+--I hope you can learn from my repo!
+
+
+--0.Insert table nashville_housing from csvfile
 
 CREATE TABLE nashville_housing(
 	UniqueID int,
